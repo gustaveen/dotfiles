@@ -1,0 +1,8 @@
+{
+    // Emmet preferences
+    // List of all available preferences:
+    // http://docs.emmet.io/customization/preferences/
+    "preferences": {
+        "css.autoInsertVendorPrefixes": true,
+    }
+}

@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Advanced CSV",
+		"Alignment",
+		"Autoprefixer",
+		"Babel",
+		"Comment-Snippets",
+		"CSS Extended Completions",
+		"Emmet",
+		"GitGutter",
+		"HTML Boilerplate",
+		"LESS",
+		"Open Folder",
+		"Package Control",
+		"Predawn",
+		"SCSS",
+		"SublimeLinter-pep8",
+		"WordPress Developer Resources",
+		"WordPress Generate Salts"
+	]
+}
