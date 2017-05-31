@@ -1,7 +1,7 @@
 ## Install
 
     cd $HOME
-    git clone git@github.com:marteinn/dotfiles.git
+    git clone git@github.com:gustaveen/dotfiles.git
 
 ## Setup
 
