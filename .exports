@@ -1,0 +1,23 @@
+# shell (only use if zsh is not available)
+if [ -z "$ZSH_NAME" ]; then
+    export PS1="\[\033[0;31m\]\h:\W \u\[\033[0m\]$ "
+fi
+
+# shortcuts
+export P="$HOME/Projekt"
+
+# postgres
+export PGHOST=localhost
+
+# Larger bash history (allow 32³ entries; default is 500)
+export HISTSIZE=32768
+export HISTFILESIZE=$HISTSIZE
+export HISTCONTROL=ignoredups
+
+# Make some commands not show up in history
+export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
+
+# Android
+export ANDROID_HOME=${HOME}/Library/Android/sdk
+export PATH=${PATH}:${ANDROID_HOME}/tools
+export PATH=${PATH}:${ANDROID_HOME}/platform-tools

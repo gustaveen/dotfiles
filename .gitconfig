@@ -1,0 +1,20 @@
+[user]
+	name = Gustav
+	email = gustaveen@gmail.com
+[push]
+	default = matching
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[alias]
+    s = status
+    br = branch
+    c- = checkout -
+    pod = pull origin develop
+    pud = push origin develop
+	ct = commit
+	co = checkout
+	tg = tag -l --sort=v:refname
+[merge "ours"]
+	driver = true

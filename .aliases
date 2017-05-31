@@ -1,0 +1,33 @@
+# alias
+if [ -z "$ZSH_NAME" ]; then
+    alias ll="ls -l"
+    alias la="ls -A"
+    alias l="ls -CF"
+
+    alias ..="cd .."
+fi
+
+# Shortcuts
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias s="cd ~/Sites"
+
+# git typos
+alias gti="git"
+alias gits="git s"
+
+# docker typos
+alias ocker="docker"
+alias docekr="docker"
+alias odkcer="docker"
+alias docekrc="docker"
+
+# cd into whatever is the forefront Finder window.
+cdf() {  # short for cdfinder
+  cd "`osascript -e 'tell app "Finder" to POSIX path of (insertion location as alias)'`"
+}
+
+# find shorthand
+function f() {
+    find . -name "$1" 2>&1 | grep -v 'Permission denied'
+}
