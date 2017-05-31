@@ -26,6 +26,7 @@ brew 'yarn'
 brew 'zsh'
 
 cask '1password'
+cask 'adobe-creative-cloud'
 cask 'alfred'
 cask 'appcleaner'
 cask 'daisydisk'

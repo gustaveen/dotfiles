@@ -16,6 +16,9 @@ alias s="cd ~/Sites"
 alias gti="git"
 alias gits="git s"
 
+#docker
+alias d-c="docker-compose $*"
+
 # docker typos
 alias ocker="docker"
 alias docekr="docker"
@@ -37,6 +40,10 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 cdf() {  # short for cdfinder
   cd "`osascript -e 'tell app "Finder" to POSIX path of (insertion location as alias)'`"
 }
+
+# Kill all the tabs in Chrome to free up memory
+# [C] explained: http://www.commandlinefu.com/commands/view/402/exclude-grep-from-your-grepped-output-of-ps-alias-included-in-description
+alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v extension-process | tr -s ' ' | cut -d ' ' -f2 | xargs kill"
 
 # find shorthand
 function f() {
