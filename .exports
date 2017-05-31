@@ -1,13 +1,9 @@
-# shell (only use if zsh is not available)
-if [ -z "$ZSH_NAME" ]; then
-    export PS1="\[\033[0;31m\]\h:\W \u\[\033[0m\]$ "
-fi
+# WP CLI fix
+# export MAMP_PHP=/Applications/MAMP/bin/php/php5.6.28/bin
+# export PATH="$MAMP_PHP:$PATH"
 
 # shortcuts
-export P="$HOME/Projekt"
-
-# postgres
-export PGHOST=localhost
+export S="$HOME/Sites"
 
 # Larger bash history (allow 32³ entries; default is 500)
 export HISTSIZE=32768
@@ -17,7 +13,7 @@ export HISTCONTROL=ignoredups
 # Make some commands not show up in history
 export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
 
-# Android
-export ANDROID_HOME=${HOME}/Library/Android/sdk
-export PATH=${PATH}:${ANDROID_HOME}/tools
-export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+# This loads nvm
+export NVM_DIR="/Users/gustav/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+
