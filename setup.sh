@@ -8,7 +8,7 @@ ln -sf ~/dotfiles/.bash_profile ~/.bash_profile
 ln -sf ~/dotfiles/.bashrc ~/.bashrc
 
 # zsh / zepto
-# ln -sf ~/dotfiles/.zshrc ~/.zshrc
+ln -sf ~/dotfiles/.zshrc ~/.zshrc
 # ln -sf ~/dotfiles/.zpreztorc ~/.zpreztorc
 
 # ln -sf ~/dotfiles/bin ~/bin
