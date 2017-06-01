@@ -5,6 +5,7 @@ ln -sf ~/dotfiles/.aliases ~/.aliases
 ln -sf ~/dotfiles/.exports ~/.exports
 ln -sf ~/dotfiles/.functions ~/.functions
 ln -sf ~/dotfiles/.bash_profile ~/.bash_profile
+ln -sf ~/dotfiles/.bashrc ~/.bashrc
 
 # zsh / zepto
 # ln -sf ~/dotfiles/.zshrc ~/.zshrc
