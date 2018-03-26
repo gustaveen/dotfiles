@@ -17,3 +17,5 @@ export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
 export NVM_DIR="/Users/$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
+# export MYSQL_PATH=/usr/local/Cellar/mysql/5.7.18_1  
+# export PATH=$PATH:$MYSQL_PATH/bin

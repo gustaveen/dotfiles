@@ -11,6 +11,7 @@ fi
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias s="cd ~/Sites"
+alias h="cd ~/"
 
 # git typos
 alias gti="git"
@@ -27,6 +28,9 @@ alias docekrc="docker"
 
 # Get week number
 alias week='date +%V'
+
+# The FUCK
+eval $(thefuck --alias fuck)
 
 # Show/hide hidden files in Finder
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"

@@ -1,3 +1,4 @@
+source ~/.profile
 # includes
 [ -n "$PS1" ] && source ~/.paths
 [ -n "$PS1" ] && source ~/.exports
