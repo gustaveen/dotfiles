@@ -15,7 +15,7 @@
     pud = push origin develop
 	ct = commit
 	co = checkout
-	tg = tag -l --sort=v:refname
+	tg = tag -l --sort=-v:refname
 [merge "ours"]
 	driver = true
 [color]

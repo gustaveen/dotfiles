@@ -5,10 +5,11 @@ ln -sf ~/dotfiles/.aliases ~/.aliases
 ln -sf ~/dotfiles/.exports ~/.exports
 ln -sf ~/dotfiles/.functions ~/.functions
 ln -sf ~/dotfiles/.bash_profile ~/.bash_profile
-ln -sf ~/dotfiles/.bashrc ~/.bashrc
 
 # zsh / zepto
 ln -sf ~/dotfiles/.zshrc ~/.zshrc
+#ln -sf ~/dotfiles/.zshrc ~/.zlogin
+#ln -sf ~/dotfiles/.zshrc ~/.zimrc
 # ln -sf ~/dotfiles/.zpreztorc ~/.zpreztorc
 
 # ln -sf ~/dotfiles/bin ~/bin
@@ -26,8 +27,8 @@ ln -sf ~/dotfiles/.zshrc ~/.zshrc
 # ln -sf ~/dotfiles/.psqlrc ~/.psqlrc
 
 # git
-ln -sf ~/dotfiles/git/.gitconfig ~/.gitconfig
-ln -sf ~/dotfiles/git/.gitignore ~/.gitignore
+ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
+ln -sf ~/dotfiles/.gitignore ~/.gitignore
 
 # vim
 # ln -sf ~/dotfiles/vim/.vimrc ~/.vimrc

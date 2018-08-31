@@ -1,11 +1,9 @@
 # alias
-if [ -z "$ZSH_NAME" ]; then
-    alias ll="ls -l"
-    alias la="ls -A"
-    alias l="ls -CF"
+alias ll="ls -l"
+alias la="ls -A"
+alias l="ls -CF"
 
-    alias ..="cd .."
-fi
+alias ..="cd .."
 
 # Shortcuts
 alias dl="cd ~/Downloads"
@@ -30,7 +28,7 @@ alias docekrc="docker"
 alias week='date +%V'
 
 # The FUCK
-eval $(thefuck --alias fuck)
+# eval $(thefuck --alias fuck)
 
 # Show/hide hidden files in Finder
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
