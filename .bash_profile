@@ -8,3 +8,6 @@
 # if [ -f ~/.extra ]; then
 #     [ -n "$PS1" ] && source ~/.extra
 # fi
+
+export YVM_DIR=/Users/gustaveen/.yvm
+[ -r $YVM_DIR/yvm.sh ] && . $YVM_DIR/yvm.sh

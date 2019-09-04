@@ -1,9 +1,12 @@
 # alias
 alias ll="ls -l"
-alias la="ls -A"
+alias la="ls -la"
 alias l="ls -CF"
 
 alias ..="cd .."
+
+# Chrome no-security
+alias cns='open -na Google\\ Chrome --args --disable-web-security --user-data-dir="/tmp/chrome_dev"'
 
 # Shortcuts
 alias dl="cd ~/Downloads"
