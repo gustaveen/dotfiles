@@ -37,7 +37,7 @@ export HISTCONTROL=ignoredups
 export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/gustaveen/.oh-my-zsh"
+export ZSH="/Users/gustav.een/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -135,5 +135,5 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 [ -n "$PS1" ] && source ~/.bash_profile
 
-export YVM_DIR=/Users/gustaveen/.yvm
+export YVM_DIR=/Users/gustav.een/.yvm
 [ -r $YVM_DIR/yvm.sh ] && . $YVM_DIR/yvm.sh

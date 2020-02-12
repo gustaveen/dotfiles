@@ -4,7 +4,7 @@ export PATH=/usr/local/bin:$PATH
 # Load rbenv automatically by appending
 # the following to ~/.bash_profile:
 
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 
 # export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
