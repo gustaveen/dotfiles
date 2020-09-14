@@ -2,8 +2,8 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 tap 'homebrew/core'
-tap 'caskroom/cask'
-tap 'caskroom/versions'
+tap 'homebrew/cask'
+tap 'homebrew/cask-versions'
 
 brew 'imagemagick'
 # brew 'git' Installed via Command line tools
@@ -20,6 +20,7 @@ cask 'alfred'
 cask 'appcleaner'
 cask 'daisydisk'
 cask 'dropbox'
+cask 'docker'
 cask 'evernote'
 cask 'google-chrome'
 cask 'firefoxdeveloperedition'
