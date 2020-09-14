@@ -17,8 +17,9 @@
 	co = checkout
   fup = fetch upstream
   rum = rebase upstream/master
-  pum = pull upstream master --rebase
+  pum = pull origin master --rebase
   tg = tag -l --sort=-v:refname
+  # dm = branch --merged | egrep -v '(^\*|master)' | xargs git branch -d
 
 
 [alias]
