@@ -19,6 +19,13 @@ alias h="cd ~/"
 alias gti="git"
 alias gits="git s"
 
+# yarn 
+alias y="yarn"
+alias yw="yarn watch"
+alias yl="yarn lint"
+alias yf="yarn lint --fix"
+alias yt="yarn test"
+
 #docker
 alias d-c="docker-compose $*"
 
